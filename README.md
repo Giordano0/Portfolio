@@ -1,8 +1,8 @@
 # Personal Portfolio — Giordano Dolenz
 
-A personal portfolio website built from scratch with HTML and CSS, showcasing my projects and skills as a student of Applied Informatics & Data Analytics.
+A personal portfolio website built from scratch with HTML CSS and JavaScript, showcasing my projects and skills as a student of Applied Informatics & Data Analytics.
 
-🔗 **Live site:** [giordano0.github.io](https://giordano0.github.io)
+🔗 **Live site:** [giordano0.github.io](https://giordano0.github.io/Portfolio/)
 
 ---
 
