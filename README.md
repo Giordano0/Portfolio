@@ -69,4 +69,4 @@ python -m http.server 8000
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under this [License](https://github.com/Giordano0/Portfolio/blob/main/LICENSE.txt).
