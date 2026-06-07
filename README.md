@@ -2,7 +2,7 @@
 
 A dark, minimal personal portfolio site built from scratch with HTML, CSS, and Vanilla JavaScript. Showcases projects across web development, Python, and C.
 
-**[Live Site →](https://giordano0.github.io/)**
+**[Live Site →]([https://giordano0.github.io/](https://giordano0.github.io/Portfolio/))**
 
 ---
 
