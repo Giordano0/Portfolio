@@ -1,6 +1,15 @@
 const projects = {
     web: [
         {
+            img: "./images/latest-project-img/Kanban Board.png",
+            alt: "Kanban Board",
+            title: "Kanban Board",
+            description: "A drag-and-drop task management board built with Vanilla JavaScript, HTML, and CSS. Cards persist across sessions via localStorage.",
+            github: "https://github.com/Giordano0/Kanban-Board",
+            live: "https://giordano0.github.io/Kanban-Board/"
+        },
+
+        {
             img: "./images/projects/html-css-javascript/PersonalDashboardPreview.png",
             alt: "Personal Dashboard",
             title: "Personal Dashboard",
@@ -88,8 +97,8 @@ const projects = {
 };
 
 const latestProject = {
-    link: "https://giordano0.github.io/Personal-Dashboard/",
-    img: "./images/latest-project-img/PersonalDashboardPreview.png",
-    name: "Personal Dashboard",
+    link: "https://giordano0.github.io/Kanban-Board/",
+    img: "./images/latest-project-img/Kanban Board.png",
+    name: "Kanban Board",
     techStack: "HTML, CSS, JavaScript"
 };
