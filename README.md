@@ -25,7 +25,7 @@ portfolio/
 ├── css/
 │   └── style.css
 ├── js/
-│   ├── projects.js     ← edit this to add/update projects
+│   ├── projects.js     
 │   └── render.js
 └── images/
     ├── latest-project-img/
@@ -47,8 +47,8 @@ Open `js/projects.js` and add an object to the relevant array (`web`, `python`, 
     alt: "My Project",
     title: "My Project",
     description: "A short description of what it does and what you learned.",
-    github: "https://github.com/Giordano0/my-project",   // optional
-    live: "https://giordano0.github.io/my-project/"       // optional
+    github: "https://github.com/Giordano0/my-project",
+    live: "https://giordano0.github.io/my-project/"
 }
 ```
 
