@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,6 +10,11 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2250%22 fill=%22%23534AB7%22/><text y=%2250%22 x=%2250%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial, sans-serif%22 font-size=%2245%22 font-weight=%22bold%22>GD</text></svg>">
     <title>Personal Portfolio</title>
     <meta name="description" content="Giordano Dolenz - Applied Informatics & Data Analytics. Constantly evolving as a developer with a passion for clean code, Python, and the web.">
+    <meta name="description" content="An interactive personal dashboard featuring a real-time clock, dynamic greetings, and a to-do list with a glassmorphism design.">
+    <meta name="author" content="Your Name"> <meta name="theme-color" content="#1A365D">
+    <meta property="og:title" content="Personal Dashboard">
+    <meta property="og:description" content="An elegant glassmorphism dashboard built with HTML, CSS, and Vanilla JavaScript.">
+    <meta property="og:type" content="website">
 </head>
 <body>
     <!--Animated Background-->
@@ -75,13 +80,7 @@
             </div>
 
             <div id="right-section-main">
-                <div id="latest-project">
-                    <a href="https://giordano0.github.io/Mondrian-Project/">
-                        <img id="latest-project-img" src="./images/latest-project-img/2026-06-03 Mondrian-project.png" alt="latest project">
-                        <p id="latest-project-name">Mondrian Project</p>
-                        <p id="latest-project-tech-stack">HTML, CSS</p>
-                    </a>
-                </div>
+                <div id="latest-project"></div>
             </div>
         </div>
     </main>
@@ -171,74 +170,11 @@
 
         <div id="tab-content-container">
             
-            <div id="web-projects" class="tab-pane active">
-                <div class="project-card hidden">
-                    <img src="./images/projects/html-css-javascript/2026-06-03 Mondrian-project.png" alt="Mondrian Project" loading="lazy">
-                    <h3>Mondrian Project</h3>
-                    <p>A responsive recreation of Mondrian's art.</p>
-                    <a href="https://giordano0.github.io/Mondrian-Project/">Live Site &rarr;</a>
-                </div>
+            <div id="web-projects" class="tab-pane active"></div>
 
-                <div class="project-card hidden">
-                    <img src="./images/projects/html-css-javascript/2026-06-03-TinDog.png" alt="TinDog Project" loading="lazy">
-                    <h3>TinDog</h3>
-                    <p>A fully responsive landing page for a fictional dog-dating app, built to showcase mobile-first design using HTML, CSS, and Bootstrap.</p>
-                    <a href="https://giordano0.github.io/TinDog/">Live Site &rarr;</a>
-                </div>
-            </div>
+            <div id="python-projects" class="tab-pane"></div>
 
-            <div id="python-projects" class="tab-pane">
-                <div class="project-card hidden">
-                    <img src="./images/projects/python/2026-06-03-PomodoroTimer.png" alt="Pomodoro Timer Project" loading="lazy">
-                    <h3>Pomodoro Timer</h3>
-                    <p>A desktop Pomodoro productivity timer built with Python and Tkinter, featuring automated work/break cycles and dynamic UI updates.</p>
-                    <a href="https://github.com/Giordano0/Tomato-Timer">GitHub Repo &rarr;</a>
-                </div>
-
-                <div class="project-card hidden">
-                    <img src="./images/projects/python/2026-06-03-MilesToKm.png" alt="Miles To Kilometer Converter Project" loading="lazy">
-                    <h3>Miles to Kilometer Converter</h3>
-                    <p>A lightweight desktop application built with Python and Tkinter, demonstrating event-driven programming and grid-based UI layout.</p>
-                    <a href="https://github.com/Giordano0/Miles-To-Kilometer-Converter">GitHub Repo &rarr;</a>
-                </div>
-
-                <div class="project-card hidden">
-                    <img src="./images/projects/python/2026-06-03-GuessTheState.png" alt="Guess The State Project" loading="lazy">
-                    <h3>US States Game</h3>
-                    <p>An interactive geography game built with Python's Turtle graphics and Pandas, utilizing CSV data manipulation for real-time spatial plotting.</p>
-                    <a href="https://github.com/Giordano0/U.S.-States-game">GitHub Repo &rarr;</a>
-                </div>
-
-                <div class="project-card hidden">
-                    <img src="./images/projects/python/2026-06-03-SnakeGame.png" alt="Snake Game Project" loading="lazy"> 
-                    <h3>Snake</h3>
-                    <p>A classic arcade game built with Python's Turtle graphics, demonstrating Object-Oriented Programming (OOP) principles and class-based state management.</p>
-                    <a href="https://github.com/Giordano0/Snake-Game-with-High-Score">GitHub Repo &rarr;</a>
-                </div>
-
-                <div class="project-card hidden">
-                    <img src="./images/projects/python/2026-06-03-TurtleCrossing.png" alt="Turtle Crossing Game Project" loading="lazy">
-                    <h3>Turtle Crossing</h3>
-                    <p>A Frogger-style arcade game built with Python, showcasing advanced Object-Oriented Programming, dynamic level progression algorithms, and continuous collision detection.</p>
-                    <a href="https://github.com/Giordano0/Turtle-Crossing">GitHub Repo &rarr;</a>
-                </div>
-            </div>
-
-            <div id="c-projects" class="tab-pane">
-                <div class="project-card hidden">
-                    <img src="./images/projects/c/2026-06-03-BlackJack.png" alt="BlackJack Project" loading="lazy">
-                    <h3>BlackJack</h3>
-                    <p>A 2-player Blackjack simulation built in C, utilizing procedural logic, pseudo-random number generation, and interactive standard I/O for game flow.</p>
-                    <a href="https://github.com/Giordano0/BlackJack-in-C">GitHub Repo &rarr;</a>
-                </div>
-
-                <div class="project-card hidden">
-                    <img src="./images/projects/c/2026-06-03-MonopolySimulation.png" alt="Monopoly Simulation Project" loading="lazy">
-                    <h3>Monopoly Simulation</h3>
-                    <p>A command-line board game simulation written in C, featuring procedural turn-based logic, pseudo-random number generation, and dynamic state management.</p>
-                    <a href="https://github.com/Giordano0/Monopoly-simulation">GitHub Repo &rarr;</a>
-                </div>
-            </div>
+            <div id="c-projects" class="tab-pane"></div>
 
         </div>
     </section>
@@ -275,33 +211,12 @@
 
     <!-- End Contact section -->
 
+    <script src="./js/projects.js"></script>
+    <script src="./js/render.js"></script>
     <script>
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('show');
-                }
-            });
-        });
-
-    const hiddenElements = document.querySelectorAll('.hidden');
-    hiddenElements.forEach((el) => observer.observe(el));
-
-
         function openTab(evt, tabName) {
-            // 1. Hide all elements with class="tab-pane"
-            let tabPanes = document.getElementsByClassName("tab-pane");
-            for (let i = 0; i < tabPanes.length; i++) {
-                tabPanes[i].classList.remove("active");
-            }
-
-            // 2. Remove the "active" class from all buttons
-            let tabBtns = document.getElementsByClassName("tab-btn");
-            for (let i = 0; i < tabBtns.length; i++) {
-                tabBtns[i].classList.remove("active");
-            }
-
-            // 3. Show the current tab, and add an "active" class to the button that opened the tab
+            document.querySelectorAll(".tab-pane").forEach(p => p.classList.remove("active"));
+            document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
             document.getElementById(tabName).classList.add("active");
             evt.currentTarget.classList.add("active");
         }

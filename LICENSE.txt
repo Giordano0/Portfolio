@@ -1,5 +1,0 @@
-Copyright (c) 2026 [Giordano]
-
-All rights reserved.
-
-This source code may not be reproduced, distributed, modified, or used commercially or non-commercially without explicit written permission from the author.
