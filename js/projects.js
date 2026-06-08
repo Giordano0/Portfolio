@@ -43,6 +43,13 @@ const projects = {
     ],
     python: [
         {
+            img: "./images/projects/python/spotifyAnalysis.png",
+            alt: "Spotify Analysis",
+            title: "Spotify Analysis",
+            description: "Exploratory data analysis on a dataset of 114,000+ Spotify tracks, built with Python, Pandas, Matplotlib, and Seaborn.",
+            github: "https://github.com/Giordano0/Spotify-Analysis"
+        },
+        {
             img: "./images/projects/python/2026-06-03-PomodoroTimer.png",
             alt: "Pomodoro Timer Project",
             title: "Pomodoro Timer",
@@ -97,8 +104,8 @@ const projects = {
 };
 
 const latestProject = {
-    link: "https://giordano0.github.io/Kanban-Board/",
-    img: "./images/latest-project-img/Kanban Board.png",
-    name: "Kanban Board",
-    techStack: "HTML, CSS, JavaScript"
+    link: "https://github.com/Giordano0/Spotify-Analysis",
+    img: "./images/latest-project-img/spotifyAnalysis.png",
+    name: "Spotify Analysis",
+    techStack: "Jupyter Notebook, Python"
 };
